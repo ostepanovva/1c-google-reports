@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1C-Google-Advance-Reports</title>
+  <meta name="description" content="Внутреннее приложение для автоматизации обмена данными между 1С и Google Sheets.">
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --card: #ffffff;
+      --text: #1f2933;
+      --muted: #667085;
+      --line: #e7e7e2;
+      --accent: #344054;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(16, 24, 40, 0.05);
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 5vw, 46px);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
+    h2 {
+      margin-top: 32px;
+      font-size: 20px;
+    }
+    p { margin: 12px 0; }
+    .lead {
+      font-size: 19px;
+      color: var(--muted);
+      max-width: 700px;
+    }
+    .badge {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #eef0f2;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+    }
+    ul { padding-left: 22px; }
+    a {
+      color: #175cd3;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 640px) {
+      main { padding: 28px 14px; }
+      .card { padding: 26px 20px; border-radius: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <div class="badge">Внутреннее приложение</div>
+      <h1>1C-Google-Advance-Reports</h1>
+      <p class="lead">Приложение для автоматизации обмена данными между 1С и Google Sheets в рамках внутренних учетных процессов.</p>
+
+      <h2>Назначение</h2>
+      <p>Приложение используется для обновления рабочих таблиц Google Sheets, распределения информации по авансовым отчетам сотрудников и контроля отсутствующих закрывающих документов.</p>
+      <p>Приложение не предназначено для публичного использования и используется только уполномоченными пользователями.</p>
+
+      <h2>Как используются данные</h2>
+      <ul>
+        <li>данные передаются из 1С в Google Sheets для выполнения внутренних учетных операций;</li>
+        <li>доступ к Google Sheets используется только в объеме, необходимом для работы интеграции;</li>
+        <li>данные не используются для рекламы и не продаются третьим лицам.</li>
+      </ul>
+
+      <h2>Конфиденциальность</h2>
+      <p>Подробная информация об обработке данных приведена в <a href="/privacy/">политике конфиденциальности</a>.</p>
+
+      <h2>Контакты</h2>
+      <p>По вопросам работы приложения и обработки данных: <a href="mailto:ostepanovva@gmail.com">ostepanovva@gmail.com</a>.</p>
+    </section>
+    <footer>1C-Google-Advance-Reports · внутренний технический сервис</footer>
+  </main>
+</body>
+</html>
